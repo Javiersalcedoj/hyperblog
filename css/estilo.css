@@ -5,14 +5,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: #333;
+    background: #1e1f24;
 }
 #cabecera {
-    background: #33a;
+    background: #37488b;
     box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.5 );
     color: white;
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
+}
+#cabecera #logo {
+    width: 20px;
+    vertical-align: middle;
 }
 #cabexera #tagline {
     padding:  0 0 0 1em;
@@ -30,5 +35,6 @@ body {
     font-size: 20px;
 }
 #psot {
+    background: white;
     padding: 1em;
 }
